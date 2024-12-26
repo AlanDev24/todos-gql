@@ -1,0 +1,13 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Query {
+  """Hola gql"""
+  SayHi: String!
+  randomNumber: Float!
+
+  """Returns a random number from 0 to (default 10)"""
+  getRandomNumberFromZeroTo(to: Int): Int!
+  todos: [String!]!
+}
